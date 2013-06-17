@@ -2,5 +2,8 @@
 	"nginx": {
 		"port": 80
 	},
-	"run_list":["nginx"]
+	"run_list":[
+		"nginx",
+		"ruby"
+	]
 }

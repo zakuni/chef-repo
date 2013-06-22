@@ -1,0 +1,23 @@
+{
+  "sha": "c21c67ff4f6670b765d8034d08ed69a990b13d0d",
+  "sources": {
+    "nginx": {
+      "locked_version": "1.7.0"
+    },
+    "build-essential": {
+      "locked_version": "1.4.0"
+    },
+    "yum": {
+      "locked_version": "2.3.0"
+    },
+    "apt": {
+      "locked_version": "2.0.0"
+    },
+    "runit": {
+      "locked_version": "1.1.6"
+    },
+    "ohai": {
+      "locked_version": "1.1.10"
+    }
+  }
+}

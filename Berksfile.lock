@@ -1,8 +1,11 @@
 {
-  "sha": "c21c67ff4f6670b765d8034d08ed69a990b13d0d",
+  "sha": "444f8bab805be5e195d9610462e0d77338319a78",
   "sources": {
     "nginx": {
       "locked_version": "1.7.0"
+    },
+    "gitlab": {
+      "locked_version": "0.3.4"
     },
     "build-essential": {
       "locked_version": "1.4.0"
@@ -18,6 +21,54 @@
     },
     "ohai": {
       "locked_version": "1.1.10"
+    },
+    "yumrepo": {
+      "locked_version": "0.16.6"
+    },
+    "ruby_build": {
+      "locked_version": "0.8.0"
+    },
+    "git": {
+      "locked_version": "2.5.2"
+    },
+    "dmg": {
+      "locked_version": "1.1.0"
+    },
+    "windows": {
+      "locked_version": "1.10.0"
+    },
+    "chef_handler": {
+      "locked_version": "1.1.4"
+    },
+    "redisio": {
+      "locked_version": "1.5.0"
+    },
+    "ulimit": {
+      "locked_version": "0.2.0"
+    },
+    "python": {
+      "locked_version": "1.3.4"
+    },
+    "readline": {
+      "locked_version": "0.0.3"
+    },
+    "sudo": {
+      "locked_version": "2.1.2"
+    },
+    "openssh": {
+      "locked_version": "1.2.0"
+    },
+    "iptables": {
+      "locked_version": "0.12.0"
+    },
+    "perl": {
+      "locked_version": "1.1.2"
+    },
+    "xml": {
+      "locked_version": "1.1.2"
+    },
+    "zlib": {
+      "locked_version": "2.0.0"
     }
   }
 }

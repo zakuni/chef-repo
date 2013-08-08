@@ -1,6 +1,9 @@
 {
-  "sha": "444f8bab805be5e195d9610462e0d77338319a78",
+  "sha": "7d9bd72c93c697985f3d5ac3b76fdab5b498b61a",
   "sources": {
+    "firewall": {
+      "locked_version": "0.11.0"
+    },
     "nginx": {
       "locked_version": "1.7.0"
     },

@@ -1,3 +1,8 @@
-{"run_list":[
-  "ufw"
-]}
+{
+  "ssh": {
+    "port": 22
+  },
+  "run_list":[
+    "ufw"
+  ]
+}

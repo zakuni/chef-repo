@@ -6,6 +6,12 @@
 #
 # All rights reserved - Do Not Redistribute
 #
-execute "ufw" do
+execute "enable" do
   command "yes | ufw enable"
+  action :nothing
+end
+
+execute "allow" do
+  command "ufw allow ssh"
+  notifies :run, "execute[enable]"
 end

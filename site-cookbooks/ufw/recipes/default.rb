@@ -12,6 +12,6 @@ execute "enable" do
 end
 
 execute "allow" do
-  command "ufw allow ssh"
+  command "ufw allow #{node.ssh.port}"
   notifies :run, "execute[enable]"
 end

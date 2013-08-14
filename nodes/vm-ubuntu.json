@@ -2,7 +2,11 @@
   "ssh": {
     "port": 22
   },
+  "http": {
+    "port": 80
+  },
   "run_list":[
-    "ufw"
+    "ufw",
+    "nginx"
   ]
 }

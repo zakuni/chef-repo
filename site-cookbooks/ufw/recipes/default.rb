@@ -18,5 +18,5 @@ end
 
 execute "allow_http" do
   command "ufw allow #{node.http.port}"
-  notifies :run, "execute[enable"
+  notifies :run, "execute[enable]"
 end

@@ -6,3 +6,6 @@
 #
 # All rights reserved - Do Not Redistribute
 #
+package "ruby" do
+  action :install
+end

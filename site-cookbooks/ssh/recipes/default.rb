@@ -12,5 +12,8 @@ template "ssh_config" do
   owner "root"
   group "root"
   mode 0644
-  notifies :reload, "service[nginx]"
+end
+
+execute "ssh-agent" do
+  command "eval 'ssh-agent'"
 end

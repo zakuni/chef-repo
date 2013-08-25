@@ -13,7 +13,3 @@ template "ssh_config" do
   group "root"
   mode 0644
 end
-
-execute "ssh-agent" do
-  command "eval 'ssh-agent'"
-end

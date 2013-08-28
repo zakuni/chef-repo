@@ -14,5 +14,6 @@ end
 
 cron "zakuni.rb" do
   minute "*/3"
-  command "ruby /zakuni/home/bot/zakuni.rb"
+  user "zakuni"
+  command "ruby /home/zakuni/bot/zakuni.rb"
 end

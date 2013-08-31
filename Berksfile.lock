@@ -1,11 +1,14 @@
 {
-  "sha": "0b27a18cd3d326a3b5f3a831e0d452aa4154dd52",
+  "sha": "edd43c29861f9cea711f9fd6f08122cc87f2fa80",
   "sources": {
     "nginx": {
       "locked_version": "1.7.0"
     },
     "rbenv": {
       "locked_version": "1.6.2"
+    },
+    "postfix": {
+      "locked_version": "3.0.0"
     },
     "build-essential": {
       "locked_version": "1.4.0"

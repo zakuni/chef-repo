@@ -15,5 +15,13 @@ end
 cron "rain-mail" do
   hour "19"
   user "zakuni"
-  command "/opt/rbenv/shims/ruby /home/zakuni/bot/zakuni.rb"
+  command "/opt/rbenv/shims/ruby /home/zakuni/rain-mail/lib/rain_mail.rb"
+end
+
+template "config.yaml" do
+  path "/home/zakuni/rain-mail/lib/config.yaml"
+  source "config.yaml.erb"
+  owner "root"
+  group "root"
+  mode 0644
 end

@@ -79,6 +79,15 @@ http {
 			index index.html index.htm;
 		}
 	}
+
+	server {
+		listen <%= node['nginx']['port'] %>;
+		server_name ozawakun.io;
+		location / {
+			root /home/zakuni/www;
+			index index.html index.htm;
+		}
+	}
 }
 
 

@@ -12,8 +12,21 @@ git "/home/zakuni/rain-mail" do
   action :sync
 end
 
+execute "bundle install" do
+  command "cd /home/zakuni/rain-mail; bundle install"
+end
+
+template "config.yaml" do
+  path "/home/zakuni/rain-mail/lib/config.yaml"
+  source "config.yaml.erb"
+  owner "root"
+  group "root"
+  mode 0644
+end
+
 cron "rain-mail" do
+  minute "0"
   hour "19"
   user "zakuni"
-  command "/opt/rbenv/shims/ruby /home/zakuni/bot/zakuni.rb"
+  command "cd /home/zakuni/rain-mail; bundle exec /opt/rbenv/shims/ruby lib/rain_mail.rb"
 end

@@ -28,6 +28,6 @@ cron "rain-mail" do
   minute "0"
   hour "19"
   user "zakuni"
-  path "/usr/bin:/opt/rbenv/shims"
+  path "/opt/rbenv/shims:/opt/rbenv/bin:/opt/rbenv/plugins/ruby_build/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games"
   command "cd /home/zakuni/rain-mail; bundle exec ruby lib/rain_mail.rb"
 end

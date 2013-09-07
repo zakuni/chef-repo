@@ -13,7 +13,7 @@ git "/home/zakuni/rain-mail" do
 end
 
 execute "bundle install" do
-  command "cd /home/zakuni/rain-mail; bundle install"
+  command "cd /home/zakuni/rain-mail; bundle install --path ~/.gem"
 end
 
 template "config.yaml" do

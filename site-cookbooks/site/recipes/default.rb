@@ -11,3 +11,11 @@ git "/home/zakuni/ozawakun.io" do
   reference "master"
   action :sync
 end
+
+execute "bundle install" do
+  command "cd /home/zakuni/ozawakun.io; bundle install --path ~/.gem"
+end
+
+execute "build" do
+  command "cd /home/zakuni/ozawakun.io; bundle exec middleman build"
+end

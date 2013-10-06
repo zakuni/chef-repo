@@ -13,9 +13,5 @@ git "/home/zakuni/ozawakun.io" do
 end
 
 execute "bundle install" do
-  command "cd /home/zakuni/ozawakun.io; bundle install --path ~/.gem"
-end
-
-execute "build" do
-  command "cd /home/zakuni/ozawakun.io; bundle exec middleman build"
+  command "cd /home/zakuni/ozawakun.io; bundle install"
 end

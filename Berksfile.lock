@@ -1,5 +1,5 @@
 {
-  "sha": "edd43c29861f9cea711f9fd6f08122cc87f2fa80",
+  "sha": "9c29925c60807e05e8c2bb5db6140c89f00bbf5d",
   "sources": {
     "nginx": {
       "locked_version": "1.7.0"
@@ -9,6 +9,9 @@
     },
     "postfix": {
       "locked_version": "3.0.0"
+    },
+    "redmine": {
+      "locked_version": "0.10.3"
     },
     "build-essential": {
       "locked_version": "1.4.0"
@@ -36,6 +39,27 @@
     },
     "chef_handler": {
       "locked_version": "1.1.4"
+    },
+    "apache2": {
+      "locked_version": "1.8.4"
+    },
+    "rails": {
+      "locked_version": "0.9.2"
+    },
+    "ruby": {
+      "locked_version": "0.9.2"
+    },
+    "passenger_apache2": {
+      "locked_version": "2.1.2"
+    },
+    "mysql": {
+      "locked_version": "4.0.4"
+    },
+    "openssl": {
+      "locked_version": "1.1.0"
+    },
+    "sqlite": {
+      "locked_version": "1.0.0"
     }
   }
 }

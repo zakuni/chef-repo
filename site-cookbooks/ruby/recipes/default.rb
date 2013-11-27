@@ -9,15 +9,15 @@
 include_recipe "rbenv::default"
 include_recipe "rbenv::ruby_build"
 
-rbenv_ruby "2.0.0-p247" do
-  ruby_version "2.0.0-p247"
+rbenv_ruby "2.0.0-p353" do
+  ruby_version "2.0.0-p353"
   global true
 end
 
 rbenv_gem "bundler" do
-  ruby_version "2.0.0-p247"
+  ruby_version "2.0.0-p353"
 end
 
 rbenv_gem "twitter" do
-  ruby_version "2.0.0-p247"
+  ruby_version "2.0.0-p353"
 end

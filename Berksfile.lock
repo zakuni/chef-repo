@@ -1,5 +1,4 @@
 {
-  "sha": "9c29925c60807e05e8c2bb5db6140c89f00bbf5d",
   "sources": {
     "nginx": {
       "locked_version": "1.7.0"

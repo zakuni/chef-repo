@@ -1,5 +1,11 @@
 {
   "sources": {
+    "apt": {
+      "locked_version": "2.3.8"
+    },
+    "git": {
+      "locked_version": "2.9.0"
+    },
     "nginx": {
       "locked_version": "1.7.0"
     },
@@ -12,35 +18,41 @@
     "redmine": {
       "locked_version": "0.10.3"
     },
-    "build-essential": {
-      "locked_version": "1.4.0"
-    },
-    "yum": {
-      "locked_version": "2.3.0"
-    },
-    "apt": {
-      "locked_version": "2.0.0"
-    },
-    "runit": {
-      "locked_version": "1.1.6"
-    },
-    "ohai": {
-      "locked_version": "1.1.10"
-    },
-    "git": {
-      "locked_version": "2.5.2"
-    },
     "dmg": {
-      "locked_version": "1.1.0"
+      "locked_version": "2.1.4"
+    },
+    "build-essential": {
+      "locked_version": "1.4.2"
     },
     "windows": {
-      "locked_version": "1.10.0"
+      "locked_version": "1.30.0"
     },
     "chef_handler": {
       "locked_version": "1.1.4"
     },
+    "runit": {
+      "locked_version": "1.5.8"
+    },
+    "yum": {
+      "locked_version": "3.1.0"
+    },
+    "yum-epel": {
+      "locked_version": "0.3.4"
+    },
+    "ohai": {
+      "locked_version": "1.1.12"
+    },
     "apache2": {
-      "locked_version": "1.8.4"
+      "locked_version": "1.9.0"
+    },
+    "iptables": {
+      "locked_version": "0.12.0"
+    },
+    "logrotate": {
+      "locked_version": "1.5.0"
+    },
+    "pacman": {
+      "locked_version": "1.1.1"
     },
     "rails": {
       "locked_version": "0.9.2"
@@ -49,10 +61,10 @@
       "locked_version": "0.9.2"
     },
     "passenger_apache2": {
-      "locked_version": "2.1.2"
+      "locked_version": "2.2.0"
     },
     "mysql": {
-      "locked_version": "4.0.4"
+      "locked_version": "4.0.20"
     },
     "openssl": {
       "locked_version": "1.1.0"

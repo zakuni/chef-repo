@@ -1,3 +1,4 @@
 /cookbooks/
 /.bundle
+/.vagrant
 nodes/ozawakun.io.json

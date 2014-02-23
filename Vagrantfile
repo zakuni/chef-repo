@@ -116,4 +116,5 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
   #
   #   chef.validation_client_name = "ORGNAME-validator"
   config.berkshelf.enabled = true
+  config.omnibus.chef_version = :latest
 end

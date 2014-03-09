@@ -95,7 +95,11 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
   #
   #   # You may also specify custom JSON attributes:
   #   chef.json = { :mysql_password => "foo" }
-      chef.json = {:http => {:port => 80}}
+      chef.json = {
+        :http => {:port => 80},
+        :user => "vagrant",
+        :server_name => "192.168.33.10"
+      }
   end
 
   # Enable provisioning with chef server, specifying the chef server URL,

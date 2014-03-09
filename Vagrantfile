@@ -90,10 +90,12 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
       chef.add_recipe "apt"
       chef.add_recipe "git"
       chef.add_recipe "nginx"
+      chef.add_recipe "ruby"
   #   chef.add_role "web"
   #
   #   # You may also specify custom JSON attributes:
   #   chef.json = { :mysql_password => "foo" }
+      chef.json = {:http => {:port => 80}}
   end
 
   # Enable provisioning with chef server, specifying the chef server URL,

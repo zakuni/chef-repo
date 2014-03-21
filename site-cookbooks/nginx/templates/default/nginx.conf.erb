@@ -82,9 +82,9 @@ http {
 
 	server {
 		listen <%= node['http']['port'] %>;
-		server_name ozawakun.io;
+		server_name <%= node['server_name'] %>;
 		location / {
-			root /home/zakuni/ozawakun.io/current/build;
+			root /home/<%= node['user'] %>/ozawakun.io/current/build;
 			index index.html index.htm;
 		}
 	}

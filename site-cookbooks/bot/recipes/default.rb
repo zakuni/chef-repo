@@ -12,9 +12,13 @@ git "/home/zakuni/bot" do
   action :sync
 end
 
+execute "bundle install" do
+  command "cd /home/zakuni/bot; bundle install --path ~/.gem"
+end
+
 cron "zakuni.rb" do
   minute "*/3"
   user "zakuni"
   path "/opt/rbenv/shims:/opt/rbenv/bin:/opt/rbenv/plugins/ruby_build/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games"
-  command "ruby /home/zakuni/bot/zakuni.rb"
+  command "cd /home/zakuni/bot; bundle exec ruby zakuni.rb"
 end

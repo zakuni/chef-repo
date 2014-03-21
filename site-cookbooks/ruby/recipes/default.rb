@@ -17,7 +17,3 @@ end
 rbenv_gem "bundler" do
   ruby_version "2.0.0-p353"
 end
-
-rbenv_gem "twitter" do
-  ruby_version "2.0.0-p353"
-end

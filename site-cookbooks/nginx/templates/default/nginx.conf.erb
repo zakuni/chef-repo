@@ -88,6 +88,12 @@ http {
 			index index.html index.htm;
 		}
 	}
+
+	server {
+		listen <%= node['http']['port'] %>;
+		server_name www.<%= node['server_name'] %>;
+		rewrite ^ http://<%= node['server_name'] %>$request_uri? permanent;
+	}
 }
 
 

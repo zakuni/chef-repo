@@ -11,5 +11,7 @@ platforms:
 suites:
   - name: default
     run_list:
-      - recipe[git::default]
+      - apt::default
+      - git::default
+      - ruby::default
     attributes:

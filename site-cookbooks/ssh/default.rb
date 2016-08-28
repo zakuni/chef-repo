@@ -1,11 +1,13 @@
 #
-# Cookbook Name:: mail
+# Cookbook Name:: ssh
 # Recipe:: default
 #
 # Copyright 2013, YOUR_COMPANY_NAME
 #
 # All rights reserved - Do Not Redistribute
 #
-package "mailutils" do
-  action :install
+template "/etc/ssh/ssh_config" do
+  owner "root"
+  group "root"
+  mode '0644'
 end

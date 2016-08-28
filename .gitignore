@@ -1,6 +1,2 @@
-/cookbooks/
 /.bundle
 /.vagrant
-nodes/ozawakun.io.json
-.kitchen/
-.kitchen.local.yml
